@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section id="{{ .Title | anchorize }}">
+  <p><a href="/#{{ .Page.Parent.Title | anchorize }}">Back</a></p>
+  <header class="major">
+    <h2>{{ .Title }} - {{  time.Format "Mon,  01. Jan 2006" .Params.eventDate }}</h2>
+    <p>{{ .Params.Lead | safeHTML }}</p>
+  </header>
+  {{ with .Params.image }}
+  <div class="box alt">
+    <div class="row gtr-50 gtr-uniform">
+      <div class="col-12"><span class="image fit"><img src="{{ . | absURL }}" alt="" /></span></div>
+    </div>
+  </div>
+  {{ end }}
+  <p>{{ .Content }}</p>
+  <p><a href="/#{{ .Page.Parent.Title | anchorize }}">Back</a></p>
+</section>
+{{ end }}
+

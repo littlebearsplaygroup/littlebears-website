@@ -1,28 +1,32 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Hyas"
-titleSeparator = "-"
-titleAddition = "Modern Hugo Starter"
-description = "Hyas is a Hugo starter helping you build modern websites that are secure, fast, and SEO-ready — by default."
+title = "Little Bears Playgroup"
+titleSeparator = ", "
+titleAddition = "an english speaking play caffe in Bern"
+description = "An english speaking play cafee in Bern."
+
+## Socialmedia
+facebook = "https://www.facebook.com/groups/678038115547386/"
+instagram = "https://www.instagram.com/parentstots/"
 
 ## Open Graph
 images = ["hyas.png"]
 ogLocale = "en_US"
-titleHome = "Hyas Hugo Starter"
+titleHome = "Little Bears Playgroup"
 
 ## Twitter Cards
-twitterSite = "@gethyas"
-twitterCreator = "@henkverlinde"
+twitterSite = "@littlebearswelcome"
+twitterCreator = "@littlebearswelcome"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Hyas"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "Little Bears Playgroup"
+schemaAuthor = "Little Bears Playgroup"
+schemaAuthorTwitter = "https://twitter.com/littlebearswelcome"
+schemaAuthorLinkedIn = ""
+schemaAuthorGitHub = "https://github.com/littlebearsplaygroup"
 schemaLocale = "en-US"
 schemaLogo = "logo-hyas.png"
 schemaLogoWidth = 512
@@ -30,9 +34,9 @@ schemaLogoHeight = 512
 schemaImage = "hyas.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/gethyas"
+schemaTwitter = "https://twitter.com/littlebearswelcome"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/hyas"
+schemaGitHub = "https://github.com/littlebearsplaygroup"
 
 ## Chrome Browser
 themeColor = "#fff"
@@ -46,12 +50,13 @@ lqipWidth = "20x"
 smallLimit = "320"
 
 # Footer
-footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
+footer_old = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
+footer = "Powered by a bunch of tireless volunteers at <a href=\"https://www.littlebears.ch/\">Little Bears Playgroup</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2022 Little Bears Playgroup"
 
 # Alert
-alert = true
+alert = false
 alertDismissable = true
-alertText = "Deliver web projects 10x faster. <a class=\"alert-link\" href=\"https://www.netlify.com/whitepaper/\" target=\"_blank\" rel=\"noopener\">Get the free enterprise paper →</a>"
+alertText = "</a>"

@@ -1,5 +1,11 @@
-<footer class="footer text-muted">
-  <div class="container">
-    <p class="m-0 text-center">{{ .Site.Params.footer | safeHTML }}</p>
+<footer id="footer">
+  <div class="inner">
+    <ul class="icons">
+      <li><a href="{{.Site.Params.facebook }}" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+      <li><a href="{{.Site.Params.instagram }}" class="icon brands fa-instagram"><span class="label">Instagramm</span></a></li>
+    </ul>
+    <ul class="copyright">
+      <li>&copy; {{ now.Format "2006" }}</li><li>{{ .Site.Params.footer | safeHTML }}</li>
+    </ul>
   </div>
 </footer>

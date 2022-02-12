@@ -1,29 +1,15 @@
 {{ define "main" }}
-  <section id="intro">
-    <header class="major">
-      <h2>{{ .Params.Lead | safeHTML }}</h2>
-    </header>
-    <p>{{ .Content }}</p>
-  </section>
-  {{ $paginator := .Paginate (.Data.Pages ) -}}
-  {{ range $paginator.Pages -}}
-  <section id="{{ .Title | anchorize }}">
+<section id="{{ .Title | anchorize }}">
+    <p><a href="/#">Back</a></p>
     <h2>{{ .Title }}</h2>
     {{ .Content }}
     {{ if eq .Section "events" }}
     <div class="row">
-      <article class="col-6 col-12-xsmall work-item">
-        <a href="/#join-us" class="image fit thumb">
-          <img src="{{ "/images/event_default.jpg" | relURL }}" alt="" />
-        </a>
-        <h3>Play Caffe - Every Wednesday</h3>
-        <p>A great place for children aged 0-5 years and their parents or caregivers to meet, play and chat.</p>
-      </article>
       {{- range ( where site.RegularPages "Section" "events" | first 3 ) }}
         <article class="col-6 col-12-xsmall work-item">
           <a href="{{ .Permalink }}" class="image fit thumb">
             {{ if (not (isset .Params "image")) | or (eq .Params.image "") }}
-            <img src="{{ "/images/event_default.jpg" | relURL }}" alt="" />
+            <img src="{{ "/images/default.jpg" | relURL }}" alt="" />
             {{ else }}
             <img src="{{ .Params.image | relURL }}" alt="" />
             {{ end }}
@@ -47,6 +33,4 @@
       {{ end }}
   {{ end }}
   </section>
-  {{ end -}}
-  {{ template "_internal/pagination.html" . -}}
-{{ end }}
+  {{ end }}

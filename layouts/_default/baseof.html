@@ -1,16 +1,26 @@
 <!doctype html>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html lang="{{ .Site.LanguageCode | default "en" }}">
   {{ partial "head/head.html" . }}
   {{- partial "head/body-class.html" . -}}
-  <body class="{{ delimit (.Scratch.Get "class") " " }}">
+  <body class="is-preload {{ delimit (.Scratch.Get "class") " " }}">
     {{ partial "header/header.html" . }}
-    <div class="wrap container" role="document">
-      <div class="content">
-        {{ block "main" . }}{{ end }}
-      </div>
+    <div id="main" role="document">
+      {{ block "main" . }}{{ end }}
     </div>
     {{ block "sidebar-footer" . }}{{ end }}
     {{ partial "footer/footer.html" . }}
+    {{/*<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>*/}}
+    <script src="{{ "js/jquery.min.js" | absURL }}"></script>
+    <script src="{{ "js/jquery.poptrox.min.js" | absURL }}"></script>
+    <script src="{{ "js/browser.min.js" | absURL }}"></script>
+    <script src="{{ "js/breakpoints.min.js" | absURL }}"></script>
+    <script src="{{ "js/util.js" | absURL }}"></script>
+    <script src="{{ "js/main.js" | absURL }}"></script>
     {{ partial "footer/script-footer.html" . }}
   </body>
 </html>

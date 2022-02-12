@@ -1,14 +1,14 @@
 [[main]]
-  name = "GitHub"
-  url = "https://github.com/h-enk/hyas"
+  name = "Join"
+  url = "/#join-us"
   weight = 10
 
-[[social]]
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/henkverlinde/"
+[[main]]
+  name = "Events"
+  url = "/events"
   weight = 20
 
-[[social]]
-  name = "Twitter"
-  url = "https://twitter.com/henkverlinde"
+[[main]]
+  name = "About"
+  url = "/#about-us"
   weight = 30
