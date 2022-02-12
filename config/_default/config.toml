@@ -1,4 +1,4 @@
-baseurl = "https://hyas.netlify.app/"
+baseurl = "https://frosty-torvalds-836d5c.netlify.app/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
