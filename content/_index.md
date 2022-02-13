@@ -1,7 +1,9 @@
 ---
-title : "Little Bears Playgroup"
-description: "A friendly and open english speaking Play Cafee for children aged 0-5 in Bern, switzerland."
-lead: "Little Bears Playgroup is a community of english speaking families that meet to chat and play"
+title: Little Bears Playgroup
+description: A friendly and open english speaking Play Caffe for children aged
+  0-5 in Bern, Switzerland.
+lead: Little Bears Playgroup is a community of english speaking families that
+  meet to chat and play
 date: 2020-04-17T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false

@@ -6,6 +6,7 @@ date: 2020-04-17T12:18:10+00:00
 eventDate: 2022-05-01T12:18:10+00:00
 lastmod: 2020-04-17T12:18:10+00:00
 draft: false
+show: "true"
 image: "/images/event_bonfire.jpg"
 ---
 

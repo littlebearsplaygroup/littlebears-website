@@ -1,0 +1,91 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# Working with a local GIT, see: https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
+local_backend: false # WARNING: For Debugging only - set this to false before publishing
+
+
+# publish_mode: editorial_workflow # in beta. adds interface for draftign reviewing and approving posts
+media_folder: "static/images" # Media files will be stored in the repo under static/images
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
+
+collections:
+  - name: "events" # Used in routes, e.g., /admin/collections/blog
+    label: "Events" # Used in the UI
+    folder: "content/events" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    filter: {field: "show", value: "true"}
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string", hint: "Visible to search engines only."}
+      - {label: "Event Date", name: "eventDate", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "hidden", hint: "Date the event is published on the website. Click now for instant visability."}
+      - {label: "Expiration Date", name: "expirationDate", widget: "hidden", hint: "Date the event automatically disappears from the website. Pick a date in the future for the event to be visible."}
+      - {label: "Show", name: "show", widget: "hidden", default: "true"}
+      - {label: "Image", name: "image", widget: "image", hint: "Required Dimensions: 370 x 217, Format: jpg or png"}
+      - {label: "Content", name: "body", widget: "markdown"}
+  - name: "home" # Used in routes, e.g., /admin/collections/blog
+    label: "Home" # Used in the UI
+    create: false
+    files:
+      - file: "content/_index.md" # The path to the file
+        name: "lead" # Used in routes, e.g., /admin/collections/blog
+        label: "Lead" # Used in the UI
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "string", hint: "Visible to search engines only."}
+          - {label: "Lead", name: "lead", widget: "string"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/about.md" # The path to the file
+        name: "about" # Used in routes, e.g., /admin/collections/blog
+        label: "About" # Used in the UI
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "hidden", hint: "Visible to search engines only."}
+          - {label: "Weight", name: "weight", widget: "number", hint: "Where on the page this section is displayed. 1 for at the top."}
+          - {label: "Images", name: "images", widget: "list", summary: "{{ fields.image }}", field: {lable: "Image", name: "image", widget: "image"}}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/join.md" # The path to the file
+        name: "join" # Used in routes, e.g., /admin/collections/blog
+        label: "Join" # Used in the UI
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "hidden", hint: "Visible to search engines only."}
+          - {label: "Weight", name: "weight", widget: "number", hint: "Where on the page this section is displayed. 1 for at the top."}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/directions.md" # The path to the file
+        name: "directions" # Used in routes, e.g., /admin/collections/blog
+        label: "Directions" # Used in the UI
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "hidden", hint: "Visible to search engines only."}
+          - {label: "Weight", name: "weight", widget: "number", hint: "Where on the page this section is displayed. 1 for at the top."}
+          - {lable: "Location", name: "location", widget: "hidden", hint: "widget: map. not implemented yet"}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/community.md" # The path to the file
+        name: "community" # Used in routes, e.g., /admin/collections/blog
+        label: "Community" # Used in the UI
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "hidden", hint: "Visible to search engines only."}
+          - {label: "Weight", name: "weight", widget: "number", hint: "Where on the page this section is displayed. 1 for at the top."}
+          - {label: "Content", name: "body", widget: "markdown"}
+      - file: "content/events/_index.md" # The path to the file
+        name: "events-title" # Used in routes, e.g., /admin/collections/blog
+        label: "Events Title" # Used in the UI
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "hidden", hint: "Visible to search engines only."}
+          - {label: "Weight", name: "weight", widget: "number", hint: "Where on the page this section is displayed. 1 for at the top."}
+          - {label: "Content", name: "body", widget: "hidden"}
+      - file: "content/disclaimer.md" # The path to the file
+        name: "disclaimer" # Used in routes, e.g., /admin/collections/blog
+        label: "Disclaimer" # Used in the UI
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "hidden", hint: "Visible to search engines only."}
+          - {label: "Weight", name: "weight", widget: "number", hint: "Where on the page this section is displayed. 1 for at the top."}
+          - {label: "Content", name: "body", widget: "markdown"}
