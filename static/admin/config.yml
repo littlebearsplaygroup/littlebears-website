@@ -3,7 +3,7 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 # Working with a local GIT, see: https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
-local_backend: false # WARNING: For Debugging only - set this to false before publishing
+local_backend: true # WARNING: For Debugging only - set this to false before publishing
 
 
 # publish_mode: editorial_workflow # in beta. adds interface for draftign reviewing and approving posts
@@ -15,6 +15,8 @@ collections:
     label: "Events" # Used in the UI
     folder: "content/events" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
+    editor:
+      preview: true
     filter: {field: "show", value: "true"}
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -30,6 +32,8 @@ collections:
   - name: "home" # Used in routes, e.g., /admin/collections/blog
     label: "Home" # Used in the UI
     create: false
+    editor:
+      preview: true
     files:
       - file: "content/_index.md" # The path to the file
         name: "lead" # Used in routes, e.g., /admin/collections/blog

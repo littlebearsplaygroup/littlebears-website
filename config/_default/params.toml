@@ -51,7 +51,7 @@ smallLimit = "320"
 
 # Footer
 footer_old = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
-footer = "Powered by a bunch of tireless volunteers at <a href=\"https://www.littlebears.ch/\">Little Bears Playgroup</a>"
+footer = "<a href=\"https://www.littlebears.ch/\">Little Bears Playgroup</a>"
 
 # Feed
 copyRight = "Copyright (c) 2022 Little Bears Playgroup"
