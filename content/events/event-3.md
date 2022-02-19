@@ -1,6 +1,6 @@
 ---
 title : "Bonfire Night"
-description: "How to contact little bears playgroup"
+description: "How to contact little bears bern"
 lead: "Toffe apples and mould wine at the bonfire topped off with a (small) fireworks display."
 date: 2020-04-17T12:18:10+00:00
 eventDate: 2022-05-01T12:18:10+00:00

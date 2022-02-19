@@ -1,7 +1,7 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Little Bears Playgroup"
+title = "Little Bears Bern"
 titleSeparator = ", "
 titleAddition = "an english speaking play caffe in Bern"
 description = "An english speaking play cafee in Bern."
@@ -11,9 +11,9 @@ facebook = "https://www.facebook.com/groups/678038115547386/"
 instagram = "https://www.instagram.com/parentstots/"
 
 ## Open Graph
-images = ["littlebearsplaygroup.png"]
+images = ["littlebearsbern.png"]
 ogLocale = "en_US"
-titleHome = "Little Bears Playgroup"
+titleHome = "Little Bears Bern"
 
 ## Twitter Cards
 twitterSite = "@littlebearswelcome"
@@ -22,21 +22,21 @@ twitterCreator = "@littlebearswelcome"
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Little Bears Playgroup"
-schemaAuthor = "Little Bears Playgroup"
+schemaName = "Little Bears Bern"
+schemaAuthor = "Little Bears Bern"
 schemaAuthorTwitter = "https://twitter.com/littlebearswelcome"
 schemaAuthorLinkedIn = ""
-schemaAuthorGitHub = "https://github.com/littlebearsplaygroup"
+schemaAuthorGitHub = "https://github.com/littlebearsbern"
 schemaLocale = "en-US"
-schemaLogo = "logo-littlebearsplaygroup.png"
+schemaLogo = "logo-littlebearsbern.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "littlebearsplaygroup.png"
+schemaImage = "littlebearsbern.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaTwitter = "https://twitter.com/littlebearswelcome"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/littlebearsplaygroup"
+schemaGitHub = "https://github.com/littlebearsbern"
 
 ## Chrome Browser
 themeColor = "#fff"
@@ -51,10 +51,10 @@ smallLimit = "320"
 
 # Footer
 footer_old = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
-footer = "<a href=\"https://www.littlebears.ch/\">Little Bears Playgroup</a>"
+footer = "<a href=\"https://www.littlebears.ch/\">Little Bears Bern</a>"
 
 # Feed
-copyRight = "Copyright (c) 2022 Little Bears Playgroup"
+copyRight = "Copyright (c) 2022 Little Bears Bern"
 
 # Alert
 alert = false

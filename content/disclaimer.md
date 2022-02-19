@@ -7,4 +7,4 @@ draft: false
 weight: 50
 ---
 
-Please be aware that you are solely responsible for your child during the playgroup, and any use of our toys and infrastructure is at your own risk.
+Please be aware that you are solely responsible for your child during the bern, and any use of our toys and infrastructure is at your own risk.
