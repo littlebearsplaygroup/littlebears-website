@@ -1,4 +1,4 @@
-baseurl = "https://littlebearsbern.netlify.app/"
+baseurl = "https://littlebearsbern.ch/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
