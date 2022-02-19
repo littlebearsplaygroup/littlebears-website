@@ -16,15 +16,15 @@ ogLocale = "en_US"
 titleHome = "Little Bears Bern"
 
 ## Twitter Cards
-twitterSite = "@littlebearswelcome"
-twitterCreator = "@littlebearswelcome"
+twitterSite = "@littlebearsbern"
+twitterCreator = "@littlebearsbern"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Little Bears Bern"
 schemaAuthor = "Little Bears Bern"
-schemaAuthorTwitter = "https://twitter.com/littlebearswelcome"
+schemaAuthorTwitter = "https://twitter.com/littlebearsbern"
 schemaAuthorLinkedIn = ""
 schemaAuthorGitHub = "https://github.com/littlebearsbern"
 schemaLocale = "en-US"
@@ -34,7 +34,7 @@ schemaLogoHeight = 512
 schemaImage = "littlebearsbern.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/littlebearswelcome"
+schemaTwitter = "https://twitter.com/littlebearsbern"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/littlebearsbern"
 
@@ -51,7 +51,7 @@ smallLimit = "320"
 
 # Footer
 footer_old = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://gethyas.com/\">Hyas</a>"
-footer = "<a href=\"https://www.littlebears.ch/\">Little Bears Bern</a>"
+footer = "<a href=\"https://www.littlebearsbern.ch/\">Little Bears Bern</a>"
 
 # Feed
 copyRight = "Copyright (c) 2022 Little Bears Bern"
