@@ -1,4 +1,4 @@
-baseurl = "https://littlebearsbern.ch/"
+baseurl = "https://www.littlebearsbern.ch/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
