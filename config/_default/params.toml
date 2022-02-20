@@ -10,6 +10,10 @@ description = "An english speaking playgroup in Bern."
 facebook = "https://www.facebook.com/groups/678038115547386/"
 instagram = "https://www.instagram.com/littlebearsbern/"
 
+## Google Analytics
+googleAnalytics = true
+googleAnalyticsId = "G-B5KQ89RC9L"
+
 ## Open Graph
 images = ["littlebearsbern.png"]
 ogLocale = "en_US"

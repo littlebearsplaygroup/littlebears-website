@@ -2,3 +2,17 @@
   {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
   <script>{{ $alertInit.Content | safeJS }}</script>
 {{- end -}}
+
+{{ if eq (hugo.Environment) "production" -}}
+  {{- if and (.Site.Params.googleAnalytics) (.Site.Params.googleAnalyticsId) -}}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{.Site.Params.googleAnalyticsId}}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{.Site.Params.googleAnalyticsId}}');
+  </script>
+  {{- end -}}
+{{ end -}}
