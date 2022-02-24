@@ -5,7 +5,7 @@
     {{ .Content }}
     {{ if eq .Section "events" }}
     <div class="row">
-      {{- range ( where site.RegularPages "Section" "events" | first 3 ) }}
+      {{- range ( where site.RegularPages "Section" "events" | first 10 ) }}
         <article class="col-6 col-12-xsmall work-item">
           <a href="{{ .Permalink }}" class="image fit thumb">
             {{ if (not (isset .Params "image")) | or (eq .Params.image "") }}
