@@ -28,6 +28,7 @@ collections:
       - {label: "Expiration Date", name: "expirationDate", widget: "hidden", hint: "Date the event automatically disappears from the website. Pick a date in the future for the event to be visible."}
       - {label: "Show", name: "show", widget: "hidden", default: "true"}
       - {label: "Image", name: "image", widget: "image", hint: "Required dimensions: 740 x 434, format: jpg or png"}
+      - {label: "Lead", name: "lead", widget: "string"}
       - {label: "Content", name: "body", widget: "markdown"}
   - name: "home" # Used in routes, e.g., /admin/collections/blog
     label: "Home" # Used in the UI
