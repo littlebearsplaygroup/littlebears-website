@@ -27,7 +27,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "hidden", hint: "Date the event is published on the website. Click now for instant visability."}
       - {label: "Expiration Date", name: "expirationDate", widget: "hidden", hint: "Date the event automatically disappears from the website. Pick a date in the future for the event to be visible."}
       - {label: "Show", name: "show", widget: "hidden", default: "true"}
-      - {label: "Lead", name: "lead", widget: "string"}
+      - {label: "Lead", name: "lead", widget: "string", hint:"Keep this at about 100 characters."}
       - {label: "Image", name: "image", widget: "image", hint: "Required dimensions: 740 x 434, format: jpg or png"}
       - {label: "Content", name: "body", widget: "markdown"}
   - name: "home" # Used in routes, e.g., /admin/collections/blog
