@@ -6,7 +6,9 @@ description: "Swiss Bern Carnival Fasnacht Fasching Karneval English Expat
 eventDate: 2022-03-02T08:15:00.000Z
 show: "true"
 lead: Join us for a Swiss-style "Fasching" with costumes and a party! Dress up
-  with your children and bring your noisemakers.
+  and bring your noisemakers.
 image: /images/fastnacht.png
 ---
-Join us for a Swiss-style "Fasching" on Wednesday with costumes and a party! Dress up with your children and bring your noisemakers as we celebrate this traditional Swiss holiday.
+Join us for a Swiss-style "Fasching" with costumes and a party! Dress up with your children and bring your noisemakers as we celebrate this traditional Swiss holiday.
+
+The party starts from 9:15 on Wednesday at St. Ursula's.
