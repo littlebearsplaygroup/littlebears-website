@@ -7,7 +7,7 @@ description: Bern Easter Egg Hunt English Switzerland Swiss English British
 eventDate: 2022-04-13T07:15:54.802Z
 show: "true"
 lead: "Join us for our annual Easter Egg Hunt: A fun tradition that your
-  children will love"
+  children will love."
 image: /images/pexels-eren-li-7169636.jpg
 ---
 It's the Easter season, and we want to celebrate with a traditional Easter Egg Hunt! Bring your own basket and eggs to hide, and join with your children in the pure joy of discovering hidden treats! 
