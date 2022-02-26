@@ -4,7 +4,7 @@ title: March Playdate
 description: Bern English Switzerland Swiss British American Expat International
   Playgroup Children Kids Parents Moms Mums Dads Caregivers Nannies Grandparents
   Playdate
-eventDate: 2022-02-26T20:24:02.579Z
+eventDate: 2022-03-11T14:00:02.579Z
 show: "true"
 lead: Spring is finally here, let's meet up for a celebratory playdate.
 image: /images/march-playdate.jpg
