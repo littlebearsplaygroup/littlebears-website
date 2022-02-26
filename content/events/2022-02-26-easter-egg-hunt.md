@@ -1,7 +1,9 @@
 ---
 layout: event
 title: Easter Egg Hunt
-description: Bern Easter Egg Hunt English
+description: Bern Easter Egg Hunt English Switzerland Swiss English British
+  American Expat International Playgroup Children Kids Parents Moms Mums Dads
+  Caregivers Nannies Grandparents
 eventDate: 2022-04-13T07:15:54.802Z
 show: "true"
 lead: "Join us for our annual Easter Egg Hunt: A fun tradition that your
