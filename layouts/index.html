@@ -19,7 +19,7 @@
         <h3>Play Caffe - Every Wednesday</h3>
         <p>A great place for children aged 0-5 years and their parents or caregivers to meet, play and chat.</p>
       </article>
-      {{- range ( where site.RegularPages "Section" "events" | first 3 ) }}
+      {{- range ((where site.RegularPages "Section" "events").ByParam "eventDate") | first 3 }}
         <article class="col-6 col-12-xsmall work-item">
           <a href="{{ .Permalink }}" class="image fit thumb">
             {{ if (not (isset .Params "image")) | or (eq .Params.image "") }}
@@ -28,7 +28,7 @@
             <img src="{{ .Params.image | relURL }}" alt="" />
             {{ end }}
           </a>
-          <h3>{{ .Title }} - {{  time.Format "Mon,  01. Jan 2006" .Params.eventDate }}</h3>
+          <h3>{{ .Title }} - {{  time.Format "Mon,  02. Jan 2006" .Params.eventDate }}</h3>
           <p>{{ .Params.Lead | safeHTML }}</p>
         </article>
       {{ end }}
