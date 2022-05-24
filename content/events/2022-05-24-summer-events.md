@@ -3,7 +3,7 @@ layout: event
 title: Summer Events
 description: Summer in Bern, pool, swimming, BBQ, games, play, children, expats,
   internationals, English
-eventDate: 2022-05-24T18:01:49.849Z
+eventDate: 2022-06-01T18:01:49.849Z
 show: "true"
 lead: Join us for summer fun in the sun!
 image: /images/website-summer-events-2022-little-bears.jpg
