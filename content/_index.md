@@ -1,7 +1,9 @@
 ---
 title: Little Bears Bern
-description: A friendly and open English-speaking playgroup for children aged
-  0-5 years in Bern, Switzerland.
+description: community, St. Ursula, Bern, Switzerland, Berne, International,
+  Expat, family, families, children, kids, fun, playgroup, spielgruppe, English,
+  moms, dads, nannies, play, friends, friendly, open, English-speaking,
+  playgroup, children, 0-5 years
 lead: Little Bears Bern is a community of English-speaking families that meet to
   play and connect
 date: 2020-04-17T12:18:10+00:00
