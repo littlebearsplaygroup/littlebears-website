@@ -8,7 +8,7 @@ description: onion, festival, party, autumn, fall, season, confetti, parade,
 eventDate: 2022-11-28T08:00:49.565Z
 show: "true"
 lead: Experience the iconic Bern Zibelemärit with us
-image: /images/lb-zibelemärit-website.jpg
+image: /images/lb-zibelemärit-website.jpg
 ---
 Let's meet up to celebrate the Zibelemarit, one of Bern's most loved traditions.
 
