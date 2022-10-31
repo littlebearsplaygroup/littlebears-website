@@ -1,15 +1,15 @@
 ---
 layout: event
-title: Pumpkin Patch Visit
-description: Pumpkin, Patch, Bern, Internationals, Expats, families, children,
-  kids, fun, autumn, October
-eventDate: 2022-10-23T12:00:19.939Z
+title: Decorate Gingerbread Cookies
+description: Christmas, winter, St. Ursula, Advent, season, december, cookies,
+  gingerbread, decorate, Bern, Switzerland, Berne, International, Expat, family,
+  families, children, kids, fun, playgroup, spielgruppe, English, moms, dads,
+  nannies, play, friends
+eventDate: 2022-11-26T09:00:19.939Z
 show: "true"
-lead: Join us for a fun Fall event
-image: /images/pumpkin-patch-lb-website.jpg
+lead: Kick off the Advent season with gingerbread cookies
+image: /images/christmas-gingerbread-website.jpg
 ---
-Save the Date for our Autumn family activity for all ages!
+Save the Date for a fun family activity to start off the Advent season!
 
-Join us on October 23 from 2 pm on for a fun family outing to the Weyeneth Family Farm in Lüterkofen, 4571. Activities include different mazes, sensory paths, and a marble run.
-
-More info in our WhatsApp group.
+Join us to decorate gingerbread cookies at St. Ursula's Christmas Bazaar on November 26, 2022 from 10 am to 3 pm. Activity sponsored by Little Bears Playgroup, donations welcome.
