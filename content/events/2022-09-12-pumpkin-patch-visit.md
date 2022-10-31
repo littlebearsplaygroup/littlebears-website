@@ -1,13 +1,13 @@
 ---
 layout: event
-title: Decorate Gingerbread Cookies
+title: Time for Gingerbread Cookies
 description: Christmas, winter, St. Ursula, Advent, season, december, cookies,
   gingerbread, decorate, Bern, Switzerland, Berne, International, Expat, family,
   families, children, kids, fun, playgroup, spielgruppe, English, moms, dads,
   nannies, play, friends
 eventDate: 2022-11-26T09:00:19.939Z
 show: "true"
-lead: Kick off the Advent season with gingerbread cookies
+lead: Kick off the Advent season by decorating gingerbread cookies
 image: /images/christmas-gingerbread-website.jpg
 ---
 Save the Date for a fun family activity to start off the Advent season!
