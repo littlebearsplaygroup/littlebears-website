@@ -2,7 +2,7 @@
 layout: event
 title: Join our WhatsApp Group
 description: Whatsapp, Bern, expats, families
-eventDate: 2022-09-12T19:54:46.180Z
+eventDate: 2023-01-01T20:54:46.180Z
 show: "true"
 lead: Stay up-to-date with our Little Bears WhatsApp group!
 image: /images/little-bears-whatsapp-qr-2022.png
