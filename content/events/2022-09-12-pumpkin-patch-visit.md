@@ -1,15 +1,18 @@
 ---
 layout: event
-title: Time for Gingerbread Cookies
-description: Christmas, winter, St. Ursula, Advent, season, december, cookies,
-  gingerbread, decorate, Bern, Switzerland, Berne, International, Expat, family,
-  families, children, kids, fun, playgroup, spielgruppe, English, moms, dads,
-  nannies, play, friends
-eventDate: 2022-11-26T09:00:19.939Z
+title: Outing to the Verkehrshaus
+description: verkehrshaus, museum, transport, swiss, St. Ursula, Lucerne,
+  Luzern, Bern, Switzerland, Schweiz, Suisse, Berne, International, Expat,
+  family, families, children, kids, fun, playgroup, spielgruppe, English, moms,
+  dads, nannies, play, friends, mother, father, grandparent, nanny, family,
+  outing
+eventDate: 2023-02-11T08:00:00.000Z
 show: "true"
-lead: Kick off the Advent season by decorating gingerbread cookies
-image: /images/christmas-gingerbread-website.jpg
+lead: Experience the unforgettable Swiss Museum of Transport
+image: /images/verkehrshaus.jpg
 ---
-Save the Date for a fun family activity to start off the Advent season!
+Save the Date for our first outing of the year to the renowned Swiss Museum of Transport in Lucerne. If you've never been, be prepared to drag your kids out at closing time. It'll become one of your family's favorites.
 
-Join us to decorate gingerbread cookies at St. Ursula's Christmas Bazaar on November 26, 2022 from 10 am to 3 pm. Activity sponsored by Little Bears Playgroup, donations welcome.
+Hope you can join us on February 11, 2023. All ages welcome. More information on WhatsApp or Facebook.
+
+Learn more at [www.verkehrshaus.ch](www.verkehrshaus.ch).
